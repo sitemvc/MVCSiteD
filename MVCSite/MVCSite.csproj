@@ -88,11 +88,71 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\blog-single-style.css" />
+    <Content Include="Content\css\blog-style.css" />
+    <Content Include="Content\css\contact-style.css" />
+    <Content Include="Content\css\service-style.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\images\background.jpg" />
+    <Content Include="Content\images\blog\insta-1.jpg" />
+    <Content Include="Content\images\blog\insta-2.jpg" />
+    <Content Include="Content\images\blog\insta-3.jpg" />
+    <Content Include="Content\images\blog\insta-4.jpg" />
+    <Content Include="Content\images\blog\insta-5.jpg" />
+    <Content Include="Content\images\blog\insta-6.jpg" />
+    <Content Include="Content\images\blog\post-1.jpg" />
+    <Content Include="Content\images\blog\post-2.jpg" />
+    <Content Include="Content\images\blog\post-3.jpg" />
+    <Content Include="Content\images\blog\recent-post-1.jpg" />
+    <Content Include="Content\images\blog\recent-post-2.jpg" />
+    <Content Include="Content\images\blog\recent-post-3.jpg" />
+    <Content Include="Content\images\foot-logo.jpg" />
+    <Content Include="Content\images\Logo-4.png" />
+    <Content Include="Content\images\logos\Logo 1.png" />
+    <Content Include="Content\images\logos\logo 3.png" />
+    <Content Include="Content\images\logos\Logo 4.png" />
+    <Content Include="Content\images\logos\Logo2.png" />
+    <Content Include="Content\images\max-image\brochures-2.jpg" />
+    <Content Include="Content\images\max-image\brochures.jpg" />
+    <Content Include="Content\images\max-image\bussines-1.jpg" />
+    <Content Include="Content\images\max-image\bussines-2.jpg" />
+    <Content Include="Content\images\max-image\bussines-card-2.jpg" />
+    <Content Include="Content\images\max-image\bussines-card-3.jpg" />
+    <Content Include="Content\images\max-image\bussines-card-4.jpg" />
+    <Content Include="Content\images\max-image\bussines-card-5.jpg" />
+    <Content Include="Content\images\max-image\bussines-card.jpg" />
+    <Content Include="Content\images\max-image\happy-client-1.jpg" />
+    <Content Include="Content\images\max-image\happy-client-2.jpg" />
+    <Content Include="Content\images\max-image\happy-client-3.jpg" />
+    <Content Include="Content\images\max-image\happy-client-5.jpg" />
+    <Content Include="Content\images\max-image\happy-client.jpg" />
+    <Content Include="Content\images\max-image\our-team-1.jpg" />
+    <Content Include="Content\images\max-image\our-team-2.jpg" />
+    <Content Include="Content\images\max-image\our-team-3.jpg" />
+    <Content Include="Content\images\max-image\our-team-4.jpg" />
+    <Content Include="Content\images\max-image\our-team-5.jpg" />
+    <Content Include="Content\images\max-image\our-team.jpg" />
+    <Content Include="Content\images\max-image\post-card-2.jpg" />
+    <Content Include="Content\images\max-image\post-card-3.jpg" />
+    <Content Include="Content\images\max-image\post-card-4.jpg" />
+    <Content Include="Content\images\max-image\post-card-5.jpg" />
+    <Content Include="Content\images\max-image\post-card-6.jpg" />
+    <Content Include="Content\images\max-image\post-card.jpg" />
+    <Content Include="Content\images\max-logo.jpg" />
+    <Content Include="Content\images\service\brochure.jpg" />
+    <Content Include="Content\images\service\bussines-card.jpg" />
+    <Content Include="Content\images\service\post-card-1.jpg" />
+    <Content Include="Content\images\service\post-card.jpg" />
+    <Content Include="Content\images\service\posters.jpg" />
+    <Content Include="Content\images\thumb.png" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\map.js" />
+    <Content Include="Scripts\script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -101,6 +161,9 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_HomeLayout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -110,7 +173,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
