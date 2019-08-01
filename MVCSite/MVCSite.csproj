@@ -105,10 +105,10 @@
     <Content Include="Content\images\blog\recent-post-3.jpg" />
     <Content Include="Content\images\foot-logo.jpg" />
     <Content Include="Content\images\Logo-4.png" />
-    <Content Include="Content\images\logos\Logo 1.png" />
-    <Content Include="Content\images\logos\logo 3.png" />
-    <Content Include="Content\images\logos\Logo 4.png" />
-    <Content Include="Content\images\logos\Logo2.png" />
+    <Content Include="Content\images\logos\Logo-1.png" />
+    <Content Include="Content\images\logos\Logo-2.png" />
+    <Content Include="Content\images\logos\logo-3.png" />
+    <Content Include="Content\images\logos\Logo-4.png" />
     <Content Include="Content\images\max-image\brochures-2.jpg" />
     <Content Include="Content\images\max-image\brochures.jpg" />
     <Content Include="Content\images\max-image\bussines-1.jpg" />

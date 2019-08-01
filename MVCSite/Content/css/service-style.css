@@ -65,12 +65,12 @@ font-size: 13px;
     padding:  40px 0;  
     margin-right: 20px; 
     }
-  .center-img{
-      width: 100%;
-      min-height: 500px;
-      background-image: url('../service/post-card.jpg');
-      background-size: cover;
-  }  
+.center-img {
+    width: 100%;
+    min-height: 500px;
+    background-image: url('../images/service/post-card.jpg');
+    background-size: cover;
+}  
 .why-row-padd p {
     font-size: 14px;
     font-family: 'Open Sans';
@@ -211,7 +211,7 @@ font-size: 13px;
 }
 /*contact */
 .contact-bg{
-    background-image: url('../image/background.jpg');
+    background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-size:cover;
 }

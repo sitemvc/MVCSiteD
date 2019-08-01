@@ -136,13 +136,12 @@ margin-bottom: 35px;
 .first-slider {
     min-height: 800px;
     
-    background-image: url('../max-image/bussines-2.jpg');
+    background-image: url('../images/max-image/bussines-2.jpg');
     background-size: cover;
 }
 .first-slider-1 {
     min-height: 800px;
-   
-    background-image: url('../max-image/bussines-1.jpg');
+    background-image: url('../images/max-image/bussines-1.jpg');
     background-size: cover;
 }
 
@@ -400,20 +399,20 @@ margin-bottom: 35px;
     min-height: 300px;  
     
 }
-.product-top-1{
-      background-image: url('../max-image/post-card.jpg');
-      background-size: cover;
-}
-.product-top-2{
-    background-image: url('../max-image/bussines-card.jpg');
+.product-top-1 {
+    background-image: url('../images/max-image/post-card.jpg');
     background-size: cover;
 }
-.product-top-3{
-    background-image: url('../max-image/post-card-2.jpg');
+.product-top-2 {
+    background-image: url('../images/max-image/bussines-card.jpg');
     background-size: cover;
 }
-.product-top-4{
-    background-image: url('../max-image/bussines-card-2.jpg');
+.product-top-3 {
+    background-image: url('../images/max-image/post-card-2.jpg');
+    background-size: cover;
+}
+.product-top-4 {
+    background-image: url('../images/max-image/bussines-card-2.jpg');
     background-size: cover;
 }
 .product-top button{
@@ -516,32 +515,32 @@ display: flex;
     min-height: 600px;
 
 }
-.col1-height{
+.col1-height {
     min-height: 600px;
-    background-image: url('../max-image/brochures.jpg');
+    background-image: url('../images/max-image/brochures.jpg');
     background-size: cover;
     z-index: 2;
 }
-.col1-2-height{
+.col1-2-height {
     min-height: 600px;
-    background-image: url('../max-image/brochures-2.jpg');
+    background-image: url('../images/max-image/brochures-2.jpg');
     background-size: cover;
 }
- .col2-height{
+.col2-height {
     min-height: 300px;
-    background-image: url('../max-image/bussines-card-5.jpg');
+    background-image: url('../images/max-image/bussines-card-5.jpg');
     background-size: cover;
- }
-.col2-1-height{
+}
+.col2-1-height {
     min-height: 300px;
-    background-image: url('../max-image/bussines-card-4.jpg');
+    background-image: url('../images/max-image/bussines-card-4.jpg');
     background-size: cover;
-      }
-.col3-height{
+}
+.col3-height {
     min-height: 300px;
-    background-image: url('../max-image/bussines-card-3.jpg');
+    background-image: url('../images/max-image/bussines-card-3.jpg');
     background-size: cover;
-          }
+}
 .r3-height{
      min-height: 300px;
       background-color: #747272;
@@ -550,21 +549,21 @@ display: flex;
     min-height: 300px;
     background-color: #747272;
 }
-.r3-col-1{
-    background-image: url('../max-image/post-card-3.jpg');
- background-size: cover;
+.r3-col-1 {
+    background-image: url('../images/max-image/post-card-3.jpg');
+    background-size: cover;
 }
-.r3-col-2{
-    background-image: url('../max-image/post-card-4.jpg');
- background-size: cover;
+.r3-col-2 {
+    background-image: url('../images/max-image/post-card-4.jpg');
+    background-size: cover;
 }
-.r3-col-3{
-    background-image: url('../max-image/post-card-5.jpg');
- background-size: cover;
+.r3-col-3 {
+    background-image: url('../images/max-image/post-card-5.jpg');
+    background-size: cover;
 }
-.r3-col-4{
-    background-image: url('../max-image/post-card-6.jpg');
- background-size: cover;
+.r3-col-4 {
+    background-image: url('../images/max-image/post-card-6.jpg');
+    background-size: cover;
 }
 .padd-col{
     margin: auto;
@@ -716,28 +715,28 @@ padding: 15px 35px;
         min-height: 450px;
         background-color: #f9f9f9;
     }
-.item-bg-1{
-    background-image: url('../max-image/our-team.jpg');
+.item-bg-1 {
+    background-image: url('../images/max-image/our-team.jpg');
     background-size: cover;
-}    
-.item-bg-2{
-    background-image: url('../max-image/our-team-1.jpg');
+}
+.item-bg-2 {
+    background-image: url('../images/max-image/our-team-1.jpg');
     background-size: cover;
-}     
-.item-bg-3{
-    background-image: url('../max-image/our-team-3.jpg');
+}
+.item-bg-3 {
+    background-image: url('../images/max-image/our-team-3.jpg');
     background-size: cover;
-}  
-.item-bg-4{
-    background-image: url('../max-image/our-team-2.jpg');
+}
+.item-bg-4 {
+    background-image: url('../images/max-image/our-team-2.jpg');
     background-size: cover;
-} 
-.item-bg-5{
-    background-image: url('../max-image/our-team-4.jpg');
+}
+.item-bg-5 {
+    background-image: url('../images/max-image/our-team-4.jpg');
     background-size: cover;
-}  
-.item-bg-6{
-    background-image: url('../max-image/our-team-5.jpg');
+}
+.item-bg-6 {
+    background-image: url('../images/max-image/our-team-5.jpg');
     background-size: cover;
 }    
 .details-link{
@@ -773,7 +772,7 @@ padding: 15px 35px;
   
 }
 .contact-bg{
-    background-image: url('../image/background.jpg');
+    background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-size:cover;
 }
