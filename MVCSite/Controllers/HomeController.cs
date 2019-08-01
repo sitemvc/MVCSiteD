@@ -13,5 +13,15 @@ namespace MVCSite.Controllers
         {
             return View();
         }
+        [Route("hakkimizda")]
+        public ActionResult About()
+        {
+            return View();
+        }
+        [Route("hizmetler")]
+        public ActionResult Services()
+        {
+            return View();
+        }
     }
 }
