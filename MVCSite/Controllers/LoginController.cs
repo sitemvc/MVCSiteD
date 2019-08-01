@@ -7,14 +7,19 @@ using System.Web.Mvc;
 
 namespace MVCSite.Controllers
 {
-    public class PanelController : Controller
+    public class LoginController : Controller
     {
-        // GET: Panel
-        [Authorize]
+        // GET: Login
+
+        MVCSiteDBEntities db = new MVCSiteDBEntities();
         public ActionResult Index()
         {
             return View();
         }
-
+        [HttpPost]
+        public ActionResult Index(Kullanici kullanici)
+        {
+            return View();
+        }
     }
 }
