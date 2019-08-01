@@ -33,7 +33,7 @@
                 @ViewBag.Mesaj
                 <form>
 
-                    @using (Html.BeginForm("Index","Login", FormMethod.Post))
+                    @using (Html.BeginForm("Index","Login", FormMethod.Post,new { id = "Index" }))
                     {
                         <div class="form-group">
                             <div class="form-label-group">
@@ -57,7 +57,7 @@
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-success">Giriş</button>
+                        <input type="submit" class="btn btn-primary btn-success" value="Giriş" />
 
                     }
                 </form>
