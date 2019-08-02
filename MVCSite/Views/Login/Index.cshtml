@@ -31,9 +31,7 @@
             <div class="card-header">Panel Giriş</div>
             <div class="card-body">
                 @ViewBag.Mesaj
-                <form>
-
-                    @using (Html.BeginForm("Index","Login", FormMethod.Post,new { id = "Index" }))
+                    @using (Html.BeginForm("Index","Login", FormMethod.Post))
                     {
                         <div class="form-group">
                             <div class="form-label-group">
@@ -60,7 +58,6 @@
                         <input type="submit" class="btn btn-primary btn-success" value="Giriş" />
 
                     }
-                </form>
                 <div class="text-center">
                     <a class="d-block small" href="forgot-password.html">Parolanı mı unuttun?</a>
                 </div>

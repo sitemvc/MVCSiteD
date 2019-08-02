@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace MVCSite.Controllers
 {
@@ -19,7 +20,18 @@ namespace MVCSite.Controllers
         [HttpPost]
         public ActionResult Index(Kullanici kullanici)
         {
-            return View();
+            var kullaniciInDB = db.Kullanici.FirstOrDefault(x => x.kullaniciAdi == kullanici.kullaniciAdi && x.parola == kullanici.parola);
+            if(kullaniciInDB!=null)
+            {
+                FormsAuthentication.SetAuthCookie(kullaniciInDB.kullaniciAdi, false);
+                return RedirectToAction("Index", "Panel");
+            }
+            else
+            {
+                ViewBag.MEsaj = "Geçersiz Kullanıcı Adı veya Parola";
+                return View();
+            }
+            
         }
     }
 }
