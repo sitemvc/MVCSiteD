@@ -18,6 +18,7 @@ namespace MVCSite.Models.EntityFramework
         public MVCSiteDBEntities()
             : base("name=MVCSiteDBEntities")
         {
+            this.Configuration.LazyLoadingEnabled = false;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

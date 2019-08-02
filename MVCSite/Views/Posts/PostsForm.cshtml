@@ -1,0 +1,28 @@
+﻿@model MVCSite.ViewsModel.PostsFormViewModel
+@{
+    ViewBag.Title = "PostsForm";
+    Layout = "~/Views/Shared/_PanelLayout.cshtml";
+}
+
+<div class="container-fluid">
+
+    <!-- Breadcrumbs-->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active">Add New Post</li>
+    </ol>
+
+    @using (Html.BeginForm("New", "Posts", FormMethod.Post))
+    {
+        <div class="form-group">
+            @Html.TextBoxFor(m => m.Posts.Title, new { @class = "form-control", placeholder = "Add title" })
+        </div>
+        <div class="form-group">
+            @Html.TextAreaFor(m => m.Posts.PostContent, new { @class = "form-control", rows = "10" })
+        </div>
+        <div class="form-group">
+            @Html.DropDownListFor(m => m.Posts.CategoryID, new SelectList(Model.Categories, "ID", "CategoryName"), "Select Category", new { @class = "form-control" })
+        </div>
+
+        <button class="btn btn-success" type="submit">Publish</button>
+    }
+</div>
