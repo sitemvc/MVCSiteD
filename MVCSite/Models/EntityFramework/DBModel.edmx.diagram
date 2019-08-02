@@ -6,6 +6,9 @@
     <edmx:Diagrams>
       <Diagram DiagramId="06fbb0fdaf964ea5b98dd3542a06ce6b" Name="Diagram1">
         <EntityTypeShape EntityType="MVCSiteDBModel.Kullanici" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MVCSiteDBModel.Categories" Width="1.5" PointX="3.375" PointY="1.125" />
+        <EntityTypeShape EntityType="MVCSiteDBModel.Posts" Width="1.5" PointX="5.625" PointY="1" />
+        <AssociationConnector Association="MVCSiteDBModel.FK_Posts_Categories" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

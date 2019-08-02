@@ -26,5 +26,7 @@ namespace MVCSite.Models.EntityFramework
         }
     
         public virtual DbSet<Kullanici> Kullanici { get; set; }
+        public virtual DbSet<Categories> Categories { get; set; }
+        public virtual DbSet<Posts> Posts { get; set; }
     }
 }

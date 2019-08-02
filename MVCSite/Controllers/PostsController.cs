@@ -4,27 +4,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using System.Web.Security;
 
 namespace MVCSite.Controllers
 {
-    [Authorize]
-    public class PanelController : Controller
+    public class PostsController : Controller
     {
-        // GET: Panel
+        // GET: Posts
 
         MVCSiteDBEntities db = new MVCSiteDBEntities();
         public ActionResult Index()
         {
+            var model = db.Posts.ToList();
+            return View(model);
+        }
+
+        public ActionResult New()
+        {
             return View();
         }
-       
-        public ActionResult Logout()
-        {
-            FormsAuthentication.SignOut();
-            return RedirectToAction("Index", "Login");
-        }
-        
 
+        public ActionResult PostsUpdate()
+        {
+            return View();
+        }
     }
 }

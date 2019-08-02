@@ -1,0 +1,71 @@
+﻿@using MVCSite.Models.EntityFramework
+@model List<Posts>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_PanelLayout.cshtml";
+}
+
+<div class="container-fluid">
+
+    <!-- Breadcrumbs-->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="#">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active">Posts</li>
+        <li class="breadcrumb-item">
+        <a class="btn btn-success" style="display:inline"  href="/Posts/New">Add New</a>
+        </li>
+    </ol>
+
+    <!-- DataTables Example -->
+    <div class="card mb-3">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Categories</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Categories</th>
+                            <th>Date</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @foreach (var Posts in Model)
+                        {
+                            <tr>
+                                <td><a href="/Posts/New">@Posts.Title</a></td>
+                                <td>@Posts.Author</td>
+                                <td>@Posts.CategoryID</td>
+                                <td>@Posts.Date</td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+    </div>
+
+    <p class="small text-center text-muted my-5">
+        <em>More table examples coming soon...</em>
+    </p>
+
+</div>
+<!-- /.container-fluid -->
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+</a>
+
+
