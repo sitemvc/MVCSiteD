@@ -8,16 +8,18 @@ using System.Web.Security;
 
 namespace MVCSite.Controllers
 {
+    [AllowAnonymous]
     public class LoginController : Controller
     {
         // GET: Login
 
-        MVCSiteDBEntities db = new MVCSiteDBEntities();
+        MVCSiteDBEntities db = new MVCSiteDBEntities(); 
         public ActionResult Index()
         {
             return View();
         }
-        [HttpPost]
+
+        [HttpPost]      
         public ActionResult Index(Kullanici kullanici)
         {
             var kullaniciInDB = db.Kullanici.FirstOrDefault(x => x.kullaniciAdi == kullanici.kullaniciAdi && x.parola == kullanici.parola);

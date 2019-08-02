@@ -1966,6 +1966,7 @@
     <Content Include="Views\Panel\Index.cshtml" />
     <Content Include="Views\Shared\_PanelHeader.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Panel\Posts.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

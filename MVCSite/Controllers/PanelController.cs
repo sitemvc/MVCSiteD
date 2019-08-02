@@ -17,11 +17,16 @@ namespace MVCSite.Controllers
         {
             return View();
         }
+        public ActionResult Posts()
+        {
+            return View();
+        }
         public ActionResult Logout()
         {
             FormsAuthentication.SignOut();
             return RedirectToAction("Index", "Login");
         }
+        
 
     }
 }
